@@ -20,7 +20,7 @@ const About = () => {
             my skills and knowledge.</p>
         </div>
         <div className="about-img">
-          <Image src='/about.jpg' className="profile-img" width={300} height={500}/>
+          <Image src='/aboutMe.jpg' className="profile-img" width={300} height={500}/>
         </div>
       </div>
     </div>
