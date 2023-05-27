@@ -20,6 +20,6 @@ export const projectData = [
         'jenkins-infra/Plugin-health-scoring PR No. #236\n' +
 'Successfully submitted and merged a pull request that adds a probe to check whether Spotbugs is enabled in the Jenkins plugin. \n' +
 'Additionally, I have written a set of unit tests to ensure that the probe functions as expected and displays the correct behavior',
-      gitHubLink: 'https://github.com/olawanlejoel/random-quote-generator',
+      gitHubLink: 'https://github.com/jenkins-infra/plugin-health-scoring/pull/236',
     },
 ]
