@@ -289,9 +289,19 @@ hr {
   background-color: #339933;
 }
 
-.skills-container .grid-skills .python:hover {
+.skills-container .grid-skills .java:hover {
   background-color: #3776AB;
 }
+.skills-container .grid-skills .Github:hover {
+  background-color: #02335a;
+}
+.skills-container .grid-skills .java:hover {
+  background-color: #327ba8;
+}
+.skills-container .grid-skills .Firebase:hover {
+  background-color: #cbbb07;
+}
+
 
 /* Projects */
 .projects-container {
