@@ -1,4 +1,5 @@
 import { projectData } from './Project_data.js';
+import { FaGithub,FaFolder } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -8,9 +9,9 @@ const Projects = () => {
         {projectData && projectData.map((project) => (
           <div className="project-card" key={project.id}>
             <div className="project-header">
-              <i className="fa-regular fa-folder-open folder-icon"></i>
+            <FaFolder className='fa-regular fa-folder-open folder-icon'/>
               <div className="small-icons">
-                <a href={project.gitHubLink}><i className="fa-brands fa-github"></i></a>
+                <a href={project.gitHubLink}><FaGithub/></a>
               </div>
             </div>
             <h3>{project.title}</h3>
