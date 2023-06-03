@@ -2,7 +2,7 @@ import React from 'react';
 import { FaTwitter,FaGithub,FaLinkedin} from 'react-icons/fa';
 const Footer = () => {
     return (
-      <>
+      <div>
         <hr/>
         <div className="footer-container">
           <p>
@@ -35,7 +35,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </>
+      </div>
     )
   }
   
