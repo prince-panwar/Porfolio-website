@@ -1,15 +1,7 @@
-import Navbar from '../component/Navbar/Navbar';
-import Footer from '../component/Footer/Footer';
-import './globals.css';
-
-const Layout = ({ children }) => {
+export default function RootLayout({ children }) {
   return (
-    <div>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <html lang="en">
+      <body>{children}</body>
+    </html>
   );
 }
-
-export default Layout;
