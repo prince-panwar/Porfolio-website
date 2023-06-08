@@ -29,7 +29,7 @@ const Skills = () => {
             <FaJava/>
             <p>Java</p>
           </div>
-          <div className="skill-card github">
+          <div className="skill-card Github">
             <FaGithub/>
             <p>GitHub</p>
           </div>
