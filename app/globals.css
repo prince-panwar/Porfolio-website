@@ -226,6 +226,15 @@ hr {
     width: 100%;
   }
 }
+.flex-about {
+  display: flex;
+  align-items: center;
+}
+
+.about-img {
+  flex: 1;
+  min-width: 300px;
+}
 
 /* Skills */
 .skills-container {
