@@ -6,8 +6,9 @@ const Projects = () => {
     <div className="projects-container">
       <h2>Projects</h2>
       <div className="projects-grid">
+      <Slide  cascade triggerOnce direction='left'>
         {projectData && projectData.map((project) => (
-          <Slide triggerOnce direction='left'>
+        
           <div className="project-card" key={project.id}>
             <div className="project-header">
             <FaFolder className='fa-regular fa-folder-open folder-icon'/>
@@ -18,9 +19,10 @@ const Projects = () => {
             <h3>{project.title}</h3>
             <p>{project.description}</p>
           </div>
-          </Slide>
+         
         ))
         }
+        </Slide>
       </div>
     </div>
   )
