@@ -1,19 +1,15 @@
-import {FaHtml5,FaJava,FaReact,FaNode,FaCss3,FaJs, FaGithub} from "react-icons/fa";
-import{SiFirebase} from "react-icons/si";
+import {FaJava,FaReact,FaNode ,FaJs, FaGithub} from "react-icons/fa";
+import{SiSolidity,SiFirebase,SiExpress ,SiMongodb} from "react-icons/si";
 const Skills = () => {
     return (
       <div className="skills-container">
         <h2>Skills</h2>
         <div className="grid-skills">
-          <div className="skill-card html">
-          <FaHtml5/>
-            <p>HTML</p>
+          <div className="skill-card Solidity">
+          <SiSolidity/>
+            <p>Solidity</p>
           </div>
-          <div className="skill-card css">
-            <FaCss3/>
-            <p>CSS</p>
-          </div>
-          <div className="skill-card js">
+        <div className="skill-card js">
             <FaJs/>
             <p>JavaScript</p>
           </div>
@@ -36,6 +32,18 @@ const Skills = () => {
           <div className="skill-card Firebase">
         <SiFirebase/>
             <p>Firebase</p>
+          </div>
+          <div className="skill-card Firebase">
+        <SiMongodb/>
+            <p>Mongodb</p>
+          </div>
+          <div className="skill-card Blockchain">
+        <SiMongodb/>
+            <p>Blockchain</p>
+          </div>
+          <div className="skill-card Express">
+        <SiExpress/>
+            <p>Express</p>
           </div>
         </div>
       </div>

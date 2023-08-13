@@ -268,11 +268,11 @@ hr {
   font-size: 1.5rem;
 }
 
-.skills-container .grid-skills .html:hover {
+.skills-container .grid-skills .Solidity:hover {
   background-color: #E34F26;
 }
 
-.skills-container .grid-skills .css:hover {
+.skills-container .grid-skills .Express:hover {
   background-color: #264DE4;
 }
 
@@ -299,6 +299,9 @@ hr {
 }
 .skills-container .grid-skills .Firebase:hover {
   background-color: #cbbb07;
+}
+.skills-container .grid-skills .Blockchain:hover {
+  background-color: #14c167;
 }
 
 

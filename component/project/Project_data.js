@@ -1,17 +1,25 @@
 export const projectData = [
     {
       id: 1,
-      title: 'E-Healthcare Managment System',
+      title: 'ERC20 Token vesting site',
       description:
-        'A comprehensive e-healthcare management website designed using ReactJS for the frontend and Firebase for data storage. The website provide a user-friendly interface for users to access their medical history, request appointments, and access health articles. Doctors will be able to add and view medical histories, while users have access to health articles fetched from an API. Additionally, the website has incorporate Google Maps to help users locate nearby hospitals',
-      gitHubLink: 'https://github.com/RupeshMangalam21/e-healthcare-management-system',
+      `Developed and implemented a decentralized full-stack web application,
+      Token Vesting Site, enabling organizations to easily create and manage
+      token vesting schedules, leading to increased transparency and
+      accountability in token distributions`,
+      gitHubLink: 'https://github.com/prince-panwar/TokenVestingSite',
     },
     {
       id: 2,
-      title: 'Restaurant App',
+      title: 'Decentralized Game',
       description:
-        ' A modern and visually appealing website for a restaurant. The website  showcase the restaurant\'s dishes, provide detailed information about the restaurant, and offer an engaging user experience',
-      gitHubLink: 'https://github.com/prince-panwar/Restaurant-App',
+      `This project is a full-stack decentralized guessing game, where each
+      correct guess rewards you with a custom ERC20 toke called degen built
+      using Next and Hardhat.
+      Pioneered full-stack decentralized guessing game: Innovatively
+     crafted a complete decentralized guessing game, boasting a holistic
+      architecture encompassing both frontend and backend elements`,
+      gitHubLink: 'https://github.com/prince-panwar/Degen_Token_Metacrafter',
     },
     {
       id: 3,
