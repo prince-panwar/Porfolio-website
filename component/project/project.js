@@ -1,3 +1,4 @@
+"use client"
 import { projectData } from './Project_data.js';
 import { FaGithub,FaFolder } from 'react-icons/fa';
 import {Slide} from 'react-awesome-reveal';
