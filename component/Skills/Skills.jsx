@@ -8,7 +8,7 @@ const Skills = () => {
       <div className="skills-container">
         <h2>Skills</h2>
         <div className="grid-skills">
-        <Zoom  cascade direction="left">
+        <Zoom triggerOnce cascade direction="left">
           <div className="skill-card Solidity">
           <SiSolidity/>
             <p>Solidity</p>
