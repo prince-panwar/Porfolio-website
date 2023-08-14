@@ -1,10 +1,14 @@
+"use client"
 import {FaJava,FaReact,FaNode ,FaJs, FaGithub} from "react-icons/fa";
 import{SiSolidity,SiFirebase,SiExpress ,SiMongodb} from "react-icons/si";
+import { Zoom } from "react-awesome-reveal";
 const Skills = () => {
     return (
+    
       <div className="skills-container">
         <h2>Skills</h2>
         <div className="grid-skills">
+        <Zoom triggerOnce cascade direction="left">
           <div className="skill-card Solidity">
           <SiSolidity/>
             <p>Solidity</p>
@@ -45,8 +49,10 @@ const Skills = () => {
         <SiExpress/>
             <p>Express</p>
           </div>
+          </Zoom>
         </div>
       </div>
+    
     )
   }
   
