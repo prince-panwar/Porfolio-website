@@ -317,7 +317,7 @@ hr {
 /* Projects */
 .projects-container {
   padding: 2rem 0;
-  overflow: auto;
+
 }
 
 .projects-container h2 {
@@ -342,8 +342,13 @@ hr {
   border: 1px solid #e6e6e6;
   padding: 20px;
   border-radius: 5px;
+  height: 50vh;
+  overflow-y: scroll; 
 }
 
+.project-card::-webkit-scrollbar {
+  display: none;
+}
 .project-card .project-header {
   display: flex;
   justify-content: space-between;
