@@ -20,7 +20,8 @@ export const projectData = [
       Design: Designed secure authentication and access controls to
       safeguard medical data.
       Collaboration: Collaborated with the team to ensure a user-friendly
-      interface and data synchronization',
+      interface and data synchronization`,
+      gitHubLink: 'https://github.com/RupeshMangalam21/e-healthcare-management-system',
     },
     {
       id: 3,
