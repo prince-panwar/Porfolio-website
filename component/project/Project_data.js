@@ -11,15 +11,16 @@ export const projectData = [
     },
     {
       id: 2,
-      title: 'Decentralized Game',
+      title: 'E-healthcare-management-system',
       description:
-      `This project is a full-stack decentralized guessing game, where each
-      correct guess rewards you with a custom ERC20 toke called degen built
-      using Next and Hardhat.
-      Pioneered full-stack decentralized guessing game: Innovatively
-     crafted a complete decentralized guessing game, boasting a holistic
-      architecture encompassing both frontend and backend elements`,
-      gitHubLink: 'https://github.com/prince-panwar/Degen_Token_Metacrafter',
+      `Led development of the E-Healthcare system: A React-based full-
+       stack web app for doctors and patients.
+      Firebase: Used Firebase Firestore for real-time data management,
+      enhancing patient records and appointments.
+      Design: Designed secure authentication and access controls to
+      safeguard medical data.
+      Collaboration: Collaborated with the team to ensure a user-friendly
+      interface and data synchronization',
     },
     {
       id: 3,
